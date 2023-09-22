@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.btn-register {
+    background-color: #27ae60;
+}
+
+.btn-login {
+    background-color: #e67e22;
+}
+
+.btn-back {
+    background-color: #3498db;
+}
+
+/* Estilos del encabezado mejorado */
+.header {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.header-text {
+    animation: fadeInUp 1s ease;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.header-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Animación */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para las imágenes en la galería */
+.image-gallery .gallery-item img {
+    max-width: 100%;
+    height: auto;
+}

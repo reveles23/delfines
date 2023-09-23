@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$usuario = "root";
+$usuario = "karla";
 $contrasena = "";
 $base_datos = "delfines";
 
